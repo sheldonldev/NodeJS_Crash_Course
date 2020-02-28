@@ -1,0 +1,16 @@
+header {
+    font-size: small;
+    text-align: center;
+}
+
+body {
+    font-size: large;
+}
+
+.error {
+    color: brown;
+}
+
+li {
+    text-align: center;
+}
