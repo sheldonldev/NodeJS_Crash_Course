@@ -1,5 +1,7 @@
 # Node.js Crash Course
 
+[Video](https://www.youtube.com/watch?v=fBNz5xF-Kx4&list=PLillGF-RfqbZ2ybcoD2OaabW2P7Ws8CWu)
+
 - js running time on server
 
 ## install node.js
@@ -163,8 +165,21 @@ logger.js
 person.js
 ```
 
+- push to heroku
+
 ```bash
 git init
 git add .
 git commit -m 'init'
+heroku create
 ```
+
+- goto heroku dashboard, click `deploy`, grab CLI of `Initialize a git repository in a new or existing directory`
+
+```bash
+heroku git:remote -a radiant-shore-*****
+git push heroku master
+heroku open
+```
+
+
