@@ -181,5 +181,3 @@ heroku git:remote -a radiant-shore-*****
 git push heroku master
 heroku open
 ```
-
-
